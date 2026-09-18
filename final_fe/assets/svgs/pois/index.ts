@@ -1,0 +1,9 @@
+export { AddPoiIcon } from './addPoiIcon';
+export { CampsitePoiIcon } from './campsitePoiIcon';
+export { DefaultPoiIcon } from './defaultPoiIcon';
+export { GeocachePoiIcon } from './geocachePoiIcon';
+export { HistoricalPoiIcon } from './historicalPoiIcon';
+export { ParkingPoiIcon } from './parkingPoiIcon';
+export { PeakPoiIcon } from './peakPoiIcon';
+export { PicnicPoiIcon } from './picnicPoiIcon';
+export { WaterPoiIcon } from './waterPoiIcon';

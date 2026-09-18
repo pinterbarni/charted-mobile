@@ -1,0 +1,38 @@
+kind: pipeline
+type: exec
+name: ci
+
+platform:
+  os: darwin
+  arch: amd64
+
+steps:
+  - name: install
+    environment:
+      PATH: /Users/barnymest/.nvm/versions/node/v20.20.1/bin:/usr/local/bin:/usr/bin:/bin
+    commands:
+      - npm ci
+
+  - name: typecheck
+    environment:
+      PATH: /Users/barnymest/.nvm/versions/node/v20.20.1/bin:/usr/local/bin:/usr/bin:/bin
+    commands:
+      - npx tsc --noEmit
+
+  - name: lint
+    environment:
+      PATH: /Users/barnymest/.nvm/versions/node/v20.20.1/bin:/usr/local/bin:/usr/bin:/bin
+    commands:
+      - npx eslint .
+
+  - name: spellcheck
+    environment:
+      PATH: /Users/barnymest/.nvm/versions/node/v20.20.1/bin:/usr/local/bin:/usr/bin:/bin
+    commands:
+      - npm run spellcheck
+
+  - name: test
+    environment:
+      PATH: /Users/barnymest/.nvm/versions/node/v20.20.1/bin:/usr/local/bin:/usr/bin:/bin
+    commands:
+      - npx jest --passWithNoTests --watchAll=false

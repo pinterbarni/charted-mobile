@@ -1,0 +1,250 @@
+{
+  "modals": {
+    "locationPermission": {
+      "title": "Location access needed",
+      "description": "Charted needs your location to show you on the map and function as a real hiking application - be able to track your hikes.",
+      "confirm": "Let's go!",
+      "cancel": "Not now"
+    },
+    "notificationPermission": {
+      "title": "Enable notifications",
+      "description": "Allow notifications so Charted can remind you if you forgot to stop tracking your hike.",
+      "confirm": "Allow",
+      "cancel": "Not now"
+    },
+    "backgroundLocation": {
+      "title": "Background location needed",
+      "description": "To track your hike while using other apps or with the screen locked, select \"Allow all the time\" on the next screen.",
+      "confirm": "Continue",
+      "cancel": "Go without"
+    },
+    "locationDenied": {
+      "title": "Location for tracking required",
+      "description": "To start tracking a hike, Charted needs access to your location. Enable it in Settings to continue.",
+      "confirm": "Open Settings",
+      "cancel": "Cancel"
+    },
+    "cannotLeaveApp": {
+      "title": "Background tracking disabled",
+      "description": "Without background location access your hike won't be recorded if you switch apps or lock your screen. Enable it, or track only while the app is open.",
+      "confirm": "Enable access",
+      "cancel": "Proceed without"
+    }
+  },
+  "location": {
+    "notification": {
+      "body": "Your route is being recorded.",
+      "title": "Charted is tracking your hike"
+    }
+  },
+  "connections": {
+    "followers": { "title": "Followers" },
+    "following": { "title": "Following" },
+    "blocked": { "title": "Blocked Users", "empty": "You haven't blocked any users yet." },
+    "search": { "placeholder": "Search for Users" }
+  },
+  "auth": {
+    "header": "Welcome to Charted",
+    "description": "What are you waiting for? Nature awaits, Let’s go hiking!",
+    "signIn": "Login",
+    "signUp": "Sign up",
+    "forgotPassword": "Forgot password",
+    "networkError": {
+      "title": "Network Unavailable",
+      "description": "Could not connect to the authentication server. Would you like to retry?",
+      "retry": "Retry",
+      "exitApp": "Close Charted"
+    }
+  },
+  "social": {
+    "reportPlaceholder": "Describe why you are reporting this user...",
+    "reportReasonRequired": "Please provide a reason for your report.",
+    "followed": "Success! You are now following this user.",
+    "unfollowed": "You have successfully unfollowed this user.",
+    "followError": "Something went wrong. Please try again.",
+    "unfollowTitle": "Unfollow",
+    "unfollowDescription": "Are you sure you want to unfollow this user?",
+    "unfollowConfirm": "Unfollow",
+    "follow": "Follow",
+    "following": "Following",
+    "blockTitle": "Block User",
+    "blockDescription": "Are you sure you want to block this user? They won't be able to see your profile.",
+    "blockConfirm": "Block",
+    "blockSuccess": "User blocked successfully.",
+    "reportTitle": "Report User",
+    "reportDescription": "Are you sure you want to report this user?",
+    "reportConfirm": "Report",
+    "reportSuccess": "User reported successfully.",
+    "logout": "Log Out",
+    "unblockTitle": "Unblock User",
+    "unblockDescription": "Are you sure you want to unblock this user?",
+    "unblockConfirm": "Unblock",
+    "unblockSuccess": "User unblocked successfully."
+  },
+
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "back": "Back"
+  },
+  "map": {
+    "title": "Map",
+    "locationPermissionDenied": "Allow location permissions in Settings to start tracking."
+  },
+  "tabs": {
+    "map": "Map",
+    "profile": "Profile"
+  },
+  "metrics": {
+    "distance": "DISTANCE",
+    "time": "TIME",
+    "pace": "PACE AVG",
+    "elevation": "ELEV GAIN"
+  },
+  "settings": {
+    "unitOfMeasurement": "UNIT OF MEASUREMENT",
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "darkMode": "DARK MODE",
+    "light": "Light",
+    "dark": "Dark",
+    "automatic": "Automatic",
+    "blockedUsers": "Blocked Users"
+  },
+  "tracking": {
+    "start": "Start Tracking",
+    "pause": "Pause",
+    "resume": "Resume",
+    "finish": "Finish",
+    "cancel": "Cancel",
+    "done": "Done"
+  },
+  "permissions": {
+    "locationRequired": "Location required",
+    "locationRequiredDescription": "To track your hikes, Charted needs access to your location. Please enable it in Settings.",
+    "goToSettings": "Open Settings"
+  },
+  "hikeReview": {
+    "namePlaceholder": "Name Your Trail...",
+    "nameRequired": "Trail name required! Please provide a name for your trail.",
+    "nameTooLong": "Name cannot be longer than 32 characters.",
+    "saveSuccess": "Hike saved successfully!"
+  },
+  "speedWarning": {
+    "title": "Speed Warning 🚨",
+    "body": "You are moving too fast. Did you forget to stop tracking your hike? 👀"
+  },
+  "user": {
+    "report": "Report",
+    "block": "Block"
+  },
+  "profile": {
+    "noOwnTrailsTitle": "No Hikes Yet",
+    "noOwnTrailsText": "You haven't tracked any hikes yet. If you are looking for a sign, this is one!",
+    "goToMap": "Let's hike!",
+    "logout": "Log Out",
+    "logoutTitle": "Log Out",
+    "logoutDescription": "Are you sure you want to log out?",
+    "logoutConfirm": "Log Out",
+    "editName": "Edit Display Name",
+    "editBio": "Edit Bio",
+    "namePlaceholder": "Enter your display name",
+    "bioPlaceholder": "Tell us about yourself",
+    "nameUpdated": "Display name updated.",
+    "bioUpdated": "Bio updated.",
+    "nameTooLong": "Display name is too long (max 16 characters).",
+    "bioTooLong": "Bio is too long (max 96 characters).",
+    "updateError": "Failed to update profile. Please try again.",
+    "editProfile": "Edit Profile Details",
+    "passwordAndSecurity": "Password & Security",
+    "deleteAccount": "Delete Account",
+    "blocked": "Blocked",
+    "unblockUser": "Unblock",
+    "unblockToSeeTrails": "Unblock {{name}} to see their shared trails.",
+    "noTrailsTitle": "No Trails Yet",
+    "noTrailsText": "At this time, {{name}} hasn't shared any trails yet.",
+    "myHikes": "My Hikes",
+    "hikes": "Hikes",
+    "tabs": {
+      "all": "All",
+      "myHikes": "My Hikes",
+      "recentlyShared": "Recently Shared",
+      "offline": "Offline"
+    },
+    "recentlyShared": "Recently Shared",
+    "noRecentSharedTitle": "No recently shared trails.",
+    "noOfflineTitle": "No Offline Trails",
+    "noOfflineText": "Download trails to access them offline."
+  },
+  "poi": {
+    "directions": "Compass Directions",
+    "north": "North",
+    "northeast": "Northeast",
+    "east": "East",
+    "southeast": "Southeast",
+    "south": "South",
+    "southwest": "Southwest",
+    "west": "West",
+    "northwest": "Northwest",
+    "default": "Point of Interest",
+    "water": "Water",
+    "historical": "Historical Site",
+    "campsite": "Camp Site",
+    "peak": "Peak / Summit",
+    "geocache": "Geo Cache",
+    "picnic": "Picnic Area",
+    "parking": "Parking Lot",
+    "picker": {
+      "title": "Choose Your Location",
+      "subtitle": "Pick your preferred spot on the map then tap the 'Place Marker' button below to manually select your waypoint.",
+      "placeMarker": "Place Marker"
+    },
+    "list": {
+      "title": "Points of Interest",
+      "add": "Add Point of Interest"
+    }
+  },
+  "planning": {
+    "cancelTitle": "Cancel Planning",
+    "cancelDescription": "All data will be lost. Are you sure?",
+    "cancelProceed": "Proceed",
+    "cancelKeep": "Cancel"
+  },
+  "route": {
+    "useCurrentLocation": "Use Current Location",
+    "setPinManually": "Set Pin Manually",
+
+    "startSet": "Starting Location Set",
+    "endSet": "Destination Set"
+  },
+  "trails": { "more": "More Trails" },
+  "trail": {
+    "retrack": "Re-track this route",
+    "delete": "Delete Hike",
+    "deleteTitle": "Delete Hike",
+    "deleteDescription": "Are you sure you want to delete this hike? This action cannot be undone.",
+    "deleteConfirm": "Delete",
+    "deleteSuccess": "Hike deleted successfully.",
+    "deleteError": "Failed to delete hike. Please try again."
+  },
+  "errors": {
+    "networkError": "Cannot reach server. Check your connection.",
+    "serverError": "Something went wrong. Please try again.",
+    "unauthorizedError": "Session expired. Please log in again."
+  },
+  "otherUserLabel": "This User's Routes",
+  "savedTrail": {
+    "loadToMap": "Retrack",
+    "delete": "Delete",
+    "deleteTitle": "Delete Saved Trail",
+    "deleteDescription": "Are you sure you want to delete this saved trail?",
+    "deleteConfirm": "Delete",
+    "deleteSuccess": "Trail deleted successfully.",
+    "deleteError": "Failed to delete trail."
+  },
+  "retrack": {
+    "cancelTitle": "Cancel Retrack",
+    "cancelDescription": "Are you sure you want to cancel retracking this route?",
+    "cancelConfirm": "Cancel Retrack"
+  }
+}

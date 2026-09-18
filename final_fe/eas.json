@@ -1,0 +1,40 @@
+{
+  "cli": {
+    "version": ">= 18.3.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "buildConfiguration": "Release"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_BFF_URL": "https://api.charted.hu",
+        "EXPO_PUBLIC_TILE_API_KEY": "fa7d593c8ba14c6570195ab4c2ce2c6543844d64e06c12a9ce71f836c5ce8a50"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "buildConfiguration": "Release"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "barni.uni@gmail.com",
+        "ascAppId": "TODO",
+        "appleTeamId": "TODO"
+      }
+    }
+  }
+}

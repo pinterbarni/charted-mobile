@@ -1,0 +1,16 @@
+import { useIconDefaults } from '@/hooks/useIconDefault';
+import { AppIconProps } from '@/types/icon.types';
+import Svg, { Path } from 'react-native-svg';
+
+export const LikeIcon = (props: AppIconProps) => {
+  const { color, size } = useIconDefaults(props);
+  return (
+    <Svg width={size} height={size} viewBox="0 0 12 12" fill="none">
+      <Path
+        d="M3.125 5H0.6875C0.583947 5 0.5 5.08396 0.5 5.1875V11.1875C0.5 11.291 0.583947 11.375 0.6875 11.375H3.125M3.125 5V5.5625V7.4375V10.25V10.8125V11.375M3.125 5C3.875 5 5.15457 3.8885 5.43796 2.75491L5.9039 0.891106C5.96139 0.66125 6.1679 0.5 6.40483 0.5C7.28581 0.5 8 1.21418 8 2.09517V4.0625C8 4.58026 8.41974 5 8.9375 5H10.6944C11.0272 5 11.2872 5.28732 11.2541 5.61849L10.7291 10.8685C10.7003 11.156 10.4584 11.375 10.1694 11.375H3.125"
+        fill={color}
+        stroke={color}
+      />
+    </Svg>
+  );
+};

@@ -1,0 +1,252 @@
+{
+  "modals": {
+    "locationPermission": {
+      "title": "Helymeghatározás szükséges",
+      "description": "A Charted hozzáférést kér a helyzeted meghatározásához, hogy igazi túra alkalmazás lehessen és megjeleníthessen a térkpen.",
+      "confirm": "Mehet!",
+      "cancel": "Most nem"
+    },
+    "notificationPermission": {
+      "title": "Értesítések engedélyezése",
+      "description": "Engedélyezd az értesítéseket! A Charted emlékeztetni fog, ha elfelejtettél leállítani egy túrát.",
+      "confirm": "Engedélyez",
+      "cancel": "Most nem"
+    },
+    "backgroundLocation": {
+      "title": "Háttér helymeghatározás szükséges",
+      "description": "A túra rögzítéséhez más alkalmazások használata közben vagy zárolt képernyőnél válaszd az \"Engedélyezés mindig\" lehetőséget.",
+      "confirm": "Engedélyez",
+      "cancel": "Folytatás nélküle"
+    },
+    "locationDenied": {
+      "title": "Helymeghatározás szükséges",
+      "description": "A túra rögzítéséhez a Charted hozzáférést kér a helyzeted meghatározásához. Engedélyezd a Beállításokban a folytatáshoz.",
+      "confirm": "Gyerünk!",
+      "cancel": "Mégse"
+    },
+    "cannotLeaveApp": {
+      "title": "Háttérbeli követés letiltva",
+      "description": "Ezen jogok nélkül a túrád nem kerül rögzítésre, egy másik alkalmazásra váltás, vagy képernyő zárolás esetén. Engedély nélkül csak az alkalmazáson belül követheted az útvonalat.",
+      "confirm": "Háttér hozzáférés engedélyezése",
+      "cancel": "Csak alkalmazáson belül"
+    }
+  },
+  "location": {
+    "notification": {
+      "body": "Az útvonalad rögzítése folyamatban van. 👀",
+      "title": "Charted túrád folyamatban"
+    }
+  },
+  "connections": {
+    "followers": { "title": "Követők" },
+    "following": { "title": "Követések" },
+    "blocked": { "title": "Letiltott Felhasználók", "empty": "Még nem tiltottál le senkit." },
+    "search": { "placeholder": "Felhasználó keresése" }
+  },
+  "auth": {
+    "header": "Üdvözöl a Charted!",
+    "description": "Mire vársz? Vár a természet, irány túrázni!",
+    "signIn": "Belépés",
+    "signUp": "Regisztráció",
+    "forgotPassword": "Elfelejtett jelszó",
+    "networkError": {
+      "title": "Nincs hálózat",
+      "description": "Nem sikerült csatlakozni a hitelesítési szerverhez. Szeretnéd újrapróbálni?",
+      "retry": "Újrapróbálás",
+      "exitApp": "Charted bezárása"
+    }
+  },
+  "social": {
+    "reportPlaceholder": "Írja le, miért jelenti ezt a felhasználót...",
+    "reportReasonRequired": "Adja meg a jelentés okát.",
+    "followed": "Siker! Mostantól követed ezt a felhasználót.",
+    "unfollowed": "Siker! Már nem  követed ezt a felhasználót.",
+    "followError": "Valami hiba történt. Kérjük próbáld újra.",
+    "unfollowTitle": "Kikövetés",
+    "unfollowDescription": "Biztosan kiszeretnéd követni ezt a felhasználót?",
+    "unfollowConfirm": "Kikövetés",
+    "follow": "Követ",
+    "following": "Követők",
+    "blockTitle": "Felhasználó tiltása",
+    "blockDescription": "Biztosan le szeretnéd tiltani ezt a felhasználót? Nem fogja látni a profilodat.",
+    "blockConfirm": "Tiltás",
+    "blockSuccess": "Felhasználó sikeresen letiltva.",
+    "reportTitle": "Felhasználó jelentése",
+    "reportDescription": "Biztosan jelenteni szeretnéd ezt a felhasználót?",
+    "reportConfirm": "Jelentés",
+    "reportSuccess": "Felhasználó sikeresen jelentve.",
+    "logout": "Kijelentkezés",
+
+    "unblockTitle": "Tiltás feloldása",
+    "unblockDescription": "Biztosan fel szeretnéd oldani a tiltást?",
+    "unblockConfirm": "Feloldás",
+    "unblockSuccess": "Tiltás sikeresen feloldva."
+  },
+  "common": {
+    "cancel": "Mégse",
+    "save": "Mentés",
+    "back": "Vissza"
+  },
+  "map": {
+    "title": "Térkép",
+    "locationPermissionDenied": "Engedélyezd a helymeghatározást a Beállításokban a túra rögzítéséhez."
+  },
+  "tabs": {
+    "map": "Térkép",
+    "profile": "Profil"
+  },
+  "metrics": {
+    "distance": "TÁVOLSÁG",
+    "time": "IDŐ",
+    "pace": "TEMPÓ ÁTL",
+    "elevation": "EMELKEDÉS"
+  },
+  "settings": {
+    "unitOfMeasurement": "MÉRTÉKEGYSÉG",
+    "metric": "Metrikus",
+    "imperial": "Angolszász",
+    "darkMode": "SÖTÉTMÓD",
+    "light": "Világos",
+    "dark": "Sötét",
+    "blockedUsers": "Letiltott felhasználók",
+    "automatic": "Automatikus"
+  },
+  "tracking": {
+    "start": "Túra indítása",
+    "pause": "Szünet",
+    "resume": "Folytatás",
+    "finish": "Befejezés",
+    "cancel": "Vissza",
+    "done": "Kész"
+  },
+  "hikeReview": {
+    "namePlaceholder": "Adj nevet a túrádnak...",
+    "nameRequired": "Kérjük adj nevet a túrádnak mentés előtt!",
+    "nameTooLong": "A név nem lehet hosszabb 32 karakternél.",
+    "saveSuccess": "Túra sikeresen mentve!"
+  },
+  "speedWarning": {
+    "title": "Túl gyorsan mozogsz! 🚨",
+    "body": "Elfelejtetted leállítani a túrádat?"
+  },
+  "poi": {
+    "directions": "Égtájak",
+    "north": "Észak",
+    "northeast": "Északkelet",
+    "east": "Kelet",
+    "southeast": "Délkelet",
+    "south": "Dél",
+    "southwest": "Délnyugat",
+    "west": "Nyugat",
+    "northwest": "Északnyugat",
+    "default": "Valami!",
+    "water": "Víz",
+    "historical": "Történelmi helyszín",
+    "campsite": "Kemping",
+    "peak": "Csúcs / Hegycsúcs",
+    "geocache": "Geocache",
+    "picnic": "Piknik terület",
+    "parking": "Parkoló",
+    "picker": {
+      "title": "Válassz Pontot",
+      "subtitle": "Válaszd ki a kívánt pontot a térképen, majd koppints az alábbi 'Jelölő Elhelyezése' gombra a pont kijelöléséhez.",
+      "placeMarker": "Jelölő Elhelyezése"
+    },
+    "poi": {
+      "list": {
+        "title": "Útipontok",
+        "add": "Pont Hozzáadása"
+      }
+    }
+  },
+  "route": {
+    "useCurrentLocation": "Saját hely használata",
+    "setPinManually": "választás térképen",
+    "startSet": "Kiindulóhely beállítva",
+    "endSet": "Úticél beállítva"
+  },
+
+  "user": {
+    "report": "Bejelentés",
+    "block": "Letiltás"
+  },
+  "profile": {
+    "logoutTitle": "Kijelentkezés",
+    "logoutDescription": "Biztosan ki szeretnél jelentkezni?",
+    "logoutConfirm": "Kijelentkezés",
+    "editName": "Név szerkesztése",
+    "editBio": "Bio szerkesztése",
+    "namePlaceholder": "Add meg a neved",
+    "bioPlaceholder": "Mesélj magadról",
+    "nameUpdated": "Név frissítve.",
+    "bioUpdated": "Bio frissítve.",
+    "nameTooLong": "A Név túl hosszú (max 16 karakter).",
+    "bioTooLong": "A bio túl hosszú (max 96 karakter).",
+    "updateError": "Nem sikerült frissíteni a profilt. Kérjük próbáld újra.",
+    "noOwnTrailsTitle": "Még nem használtál?",
+    "noOwnTrailsText": "Még nincsenek rögzített túráid! Ha egy jelre vársz, ez lesz az!",
+    "goToMap": "Túrázzunk!",
+    "logout": "Kijelentkezés",
+    "editProfile": "Profil szerkesztése",
+    "passwordAndSecurity": "Jelszó és biztonság",
+    "deleteAccount": "Fiók törlése",
+    "blocked": "Tiltott",
+    "unblockUser": "Tiltás feloldása",
+    "unblockToSeeTrails": "Oldd fel {{name}} tiltását a megosztott túrák megtekintéséhez.",
+    "noTrailsTitle": "Még nincsenek túrák",
+    "noTrailsText": "{{name}} még nem osztott meg túrákat.",
+    "myHikes": "Túráim",
+    "hikes": "Túrák",
+    "tabs": {
+      "all": "Összes",
+      "myHikes": "Túráim",
+      "recentlyShared": "Nemrég megosztott",
+      "offline": "Offline"
+    },
+    "recentlyShared": "Nemrég megosztott",
+    "noRecentSharedTitle": "Nincsenek nemrég megosztott túrák.",
+    "noOfflineTitle": "Nincsenek offline túrák",
+    "noOfflineText": "Tölts le útvonalakat az offline hozzáféréshez."
+  },
+  "planning": {
+    "cancelTitle": "Tervezés megszakítása",
+    "cancelDescription": "Minden adat elvszeszik. Biztos vagy benne?",
+    "cancelProceed": "Folytatás",
+    "cancelKeep": "Mégse"
+  },
+  "trails": { "more": "Mutasd mind!" },
+  "trail": {
+    "retrack": "Útvonal újrakövetése",
+    "delete": "Túra törlése",
+    "deleteTitle": "Túra Törlése",
+    "deleteDescription": "Biztosan törölni szeretnéd ezt a túrát? Ez a művelet nem vonható vissza.",
+    "deleteConfirm": "Törlés",
+    "deleteSuccess": "Túra sikeresen törölve.",
+    "deleteError": "Nem sikerült törölni a túrát. Kérjük próbáld újra."
+  },
+  "permissions": {
+    "locationRequired": "Helymeghatározás szükséges",
+    "locationRequiredDescription": "A túrák rögzítéséhez a Charted hozzáférést igényel a tartózkodási helyedhez. Kérjük, engedélyezd a Beállításokban.",
+    "goToSettings": "Beállítások"
+  },
+  "errors": {
+    "networkError": "A szerver nem érhető el. Ellenőrizd a kapcsolatot.",
+    "serverError": "Valami hiba történt. Kérjük próbáld újra.",
+    "unauthorizedError": "A munkamenet lejárt. Kérjük jelentkezz be újra."
+  },
+  "otherUserLabel": "This User's Routes",
+  "savedTrail": {
+    "loadToMap": "Betöltés térképre",
+    "delete": "Törlés",
+    "deleteTitle": "Mentett túra törlése",
+    "deleteDescription": "Biztosan törölni szeretnéd ezt a mentett túrát?",
+    "deleteConfirm": "Törlés",
+    "deleteSuccess": "Túra sikeresen törölve.",
+    "deleteError": "Nem sikerült törölni a túrát."
+  },
+  "retrack": {
+    "cancelTitle": "Túra megszakítása",
+    "cancelDescription": "Biztosan meg szeretnéd szakítani az túrát?",
+    "cancelConfirm": "Megszakítás"
+  }
+}
